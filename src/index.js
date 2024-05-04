@@ -1,1 +1,3 @@
-console.log("Hola caracola");
+import './style.css';
+
+//document.querySelector("body").classList.add("body");

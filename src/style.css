@@ -1,0 +1,8 @@
+body
+{
+	min-height: 100vh;
+	--brown_color : #e2bc8d;
+	--purple_color: #6d1a29;
+	margin: 0px;
+	background-color: var(--brown_color);
+}
