@@ -6,3 +6,15 @@ body
 	margin: 0px;
 	background-color: var(--brown_color);
 }
+
+nav
+{
+	display: flex;
+	justify-content: center;
+}
+
+.menu-buttons
+{
+	padding: 0.8em;
+	border-radius: 0.5em;
+}
