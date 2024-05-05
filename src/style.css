@@ -118,21 +118,6 @@ nav
 	font-size: 2rem;
 }
 
-#content .menu-text
-{
-	font-size: 2rem;
-	white-space: nowrap;
-	display: grid;
-	grid-template-columns: 3fr 1fr;
-	padding: 1em;
-}
-
-#content .menu-price
-{
-	justify-self: flex-end;
-	font-size: 3rem;
-}
-
 .img-description
 {
 	display: flex;
@@ -153,4 +138,24 @@ nav
 {
 	max-width: 10ch;
 	font-size: 3rem;
+}
+
+#content .menu-text
+{
+	font-size: 2rem;
+	white-space: nowrap;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	padding: 1em;
+}
+
+#content .menu-price
+{
+	justify-self: flex-end;
+	font-size: 3rem;
+}
+
+.contact-text
+{
+	display: flex;
 }

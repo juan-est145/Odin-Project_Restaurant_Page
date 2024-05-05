@@ -1,13 +1,15 @@
 import './style.css';
 import MainPage from './main-page.js';
-import renderMenuPage from './menu.js';
+import MenuPage from './menu.js';
+import AboutPage from './about.js';
 
 const hommeButton = document.querySelector("#home");
 const menuButton = document.querySelector("#menu");
 const aboutButton = document.querySelector("#about");
 const content = document.querySelector("#content");
 
-MainPage();
+//MainPage();
+AboutPage();
 
 hommeButton.addEventListener("click", () =>
 {
@@ -15,6 +17,7 @@ hommeButton.addEventListener("click", () =>
 		content.removeChild(content.firstChild);
 	while(content.classList.length > 0)
 		content.classList.remove(content.classList[0]);
+	content.classList.remove("contact-text");
 	MainPage();
 });
 
@@ -24,7 +27,8 @@ menuButton.addEventListener("click", () =>
 		content.removeChild(content.firstChild);
 	while(content.classList.length > 0)
 		content.classList.remove(content.classList[0]);
-	renderMenuPage();
+	content.classList.remove("contact-text");
+	MenuPage();
 });
 
 aboutButton.addEventListener("click", () =>
@@ -33,4 +37,5 @@ aboutButton.addEventListener("click", () =>
 		content.removeChild(content.firstChild);
 	while(content.classList.length > 0)
 		content.classList.remove(content.classList[0]);
+	AboutPage();
 });
