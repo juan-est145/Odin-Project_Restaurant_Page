@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Amigo kebab";
+	src: url("../fonts/durum_kebab/durum_kebab_FFP.ttf");
+}
+
 body
 {
 	min-height: 100vh;
@@ -5,28 +10,57 @@ body
 	--purple_color: #6d1a29;
 	margin: 0px;
 	background-color: var(--brown_color);
+	font-family: "Amigo kebab";
 }
 
-header
+header 
 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	background-color: var(--purple_color);
+	padding: 0.5em;
 }
 
-nav
+.title
 {
 	display: flex;
-	justify-content: center;
+	flex-shrink: 0;
+	flex-direction: space-around;
+	gap: 50px;
+}
+
+nav 
+{
+    display: flex;
+    justify-content: center;
 }
 
 .logo
 {
-	width: 100px;
+	width: 150px;
+	position: relative;
+	flex-shrink: 0;
 }
 
 .menu-buttons
 {
-	padding: 0.8em;
 	border-radius: 0.5em;
+	background: none;
+	border: none;
+	font-size: 3rem;
+	font-family: "Amigo kebab";
+	background-image: linear-gradient(
+	to right,
+	/*#462523 0,*/
+    #cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	/*#462523 100%*/
+	#f6e27a 100%
+	);
+	color:transparent;
+   -webkit-background-clip:text;
 }
