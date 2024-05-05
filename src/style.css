@@ -7,10 +7,22 @@ body
 	background-color: var(--brown_color);
 }
 
+header
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 nav
 {
 	display: flex;
 	justify-content: center;
+}
+
+.logo
+{
+	width: 100px;
 }
 
 .menu-buttons
