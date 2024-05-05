@@ -30,6 +30,23 @@ header
 	gap: 50px;
 }
 
+.title h1
+{
+	font-size: 2.6rem;
+	background-image: linear-gradient(
+	to right,
+    #cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#f6e27a 100%
+	);
+	color:transparent;
+   	background-clip: text;
+	-webkit-background-clip:text;
+}
+
 nav 
 {
     display: flex;
@@ -38,9 +55,7 @@ nav
 
 .logo
 {
-	width: 150px;
-	position: relative;
-	flex-shrink: 0;
+	width: 200px;
 }
 
 .menu-buttons
@@ -48,19 +63,18 @@ nav
 	border-radius: 0.5em;
 	background: none;
 	border: none;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-family: "Amigo kebab";
 	background-image: linear-gradient(
 	to right,
-	/*#462523 0,*/
     #cb9b51 22%, 
 	#f6e27a 45%,
 	#f6f2c0 50%,
 	#f6e27a 55%,
 	#cb9b51 78%,
-	/*#462523 100%*/
 	#f6e27a 100%
 	);
 	color:transparent;
-   -webkit-background-clip:text;
+   	background-clip: text;
+	-webkit-background-clip:text;
 }
