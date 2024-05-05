@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "Amigo kebab";
-	src: url("../fonts/durum_kebab/durum_kebab_FFP.ttf");
+	font-family: "Empire";
+	src: url("../fonts/Empire.ttf");
 }
 
 body
@@ -10,7 +10,7 @@ body
 	--purple_color: #6d1a29;
 	margin: 0px;
 	background-color: var(--brown_color);
-	font-family: "Amigo kebab", 'Times New Roman', Times, serif;
+	font-family: "Empire",'Times New Roman', Times, serif;
 }
 
 header 
@@ -64,7 +64,7 @@ nav
 	border-radius: 0.5em;
 	border: none;
 	font-size: 2.5rem;
-	font-family: "Amigo kebab", 'Times New Roman', Times, serif;
+	font-family: "Empire",'Times New Roman', Times, serif;
 	background-image: linear-gradient(
 	to right,
     #cb9b51 22%, 
@@ -84,4 +84,9 @@ nav
 	text-decoration: underline;
 	text-decoration-color: #f6e27a;
 	text-underline-offset: 0.15em;
+}
+
+#content
+{
+	background-color: var(--purple_color);
 }
