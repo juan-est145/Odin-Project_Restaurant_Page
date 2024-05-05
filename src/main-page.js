@@ -8,6 +8,7 @@ export default function renderMainPage()
 	const image = new Image();
 	const textDescription = document.createElement("p");
 
+	toggleUnderline();
 	title.textContent = "Amigo Kebab is the best Kebab in all of Malaga";
 	imageDescription.classList = "img-description";
 	image.src = MainPhoto;
@@ -18,4 +19,15 @@ export default function renderMainPage()
 	content.appendChild(imageDescription);
 	imageDescription.appendChild(image);
 	imageDescription.appendChild(textDescription);
+}
+
+function toggleUnderline()
+{
+	const homeButton = document.querySelector("#home");
+	const menuButton = document.querySelector("#menu");
+	const aboutButton = document.querySelector("#about");
+
+	menuButton.classList.remove("toggled");
+	aboutButton.classList.remove("toggled");
+	homeButton.classList.add("toggled");
 }

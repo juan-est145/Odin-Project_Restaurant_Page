@@ -83,6 +83,13 @@ nav
 	transition: all 0.3s;
 }
 
+.toggled
+{
+	text-decoration: underline;
+	text-decoration-color: #f6e27a;
+	text-underline-offset: 0.15em;
+}
+
 #content
 {
 	background-color: var(--black_color);
