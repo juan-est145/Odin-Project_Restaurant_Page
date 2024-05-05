@@ -10,29 +10,26 @@ body
 	--purple_color: #6d1a29;
 	margin: 0px;
 	background-color: var(--brown_color);
-	font-family: "Amigo kebab";
+	font-family: "Amigo kebab", 'Times New Roman', Times, serif;
 }
 
 header 
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
 	background-color: var(--purple_color);
+	gap: 20px;
 	padding: 0.5em;
 }
 
 .title
 {
 	display: flex;
-	flex-shrink: 0;
-	flex-direction: space-around;
-	gap: 50px;
 }
 
 .title h1
 {
 	font-size: 2.6rem;
+	white-space: nowrap;
 	background-image: linear-gradient(
 	to right,
     #cb9b51 22%, 
@@ -50,22 +47,24 @@ header
 nav 
 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+	align-self: center;
+	gap: 10px;
+	flex-grow: 1;
 }
 
 .logo
 {
-	width: 200px;
+	width: 100px;
 	height: 100px;
 }
 
 .menu-buttons
 {
 	border-radius: 0.5em;
-	background: none;
 	border: none;
 	font-size: 2.5rem;
-	font-family: "Amigo kebab";
+	font-family: "Amigo kebab", 'Times New Roman', Times, serif;
 	background-image: linear-gradient(
 	to right,
     #cb9b51 22%, 
@@ -78,4 +77,10 @@ nav
 	color:transparent;
    	background-clip: text;
 	-webkit-background-clip:text;
+}
+
+.menu-buttons:hover
+{
+	text-decoration: underline;
+	text-decoration-color: #f6e27a;
 }
