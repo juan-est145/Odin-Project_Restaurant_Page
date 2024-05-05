@@ -96,16 +96,41 @@ nav
 	color: white;
 	min-width: 75vw;
 	align-self: center;
+	padding: 1em;
 }
 
 #content h1
 {
 	text-align: center;
 	background-image: var(--golden_touch);
-	font-size: 1.8rem;
+	font-size: 3rem;
 	color:transparent;
    	background-clip: text;
 	-webkit-background-clip:text;
+}
+
+#content h3
+{
+	background-image: var(--golden_touch);
+	color:transparent;
+   	background-clip: text;
+	-webkit-background-clip:text;
+	font-size: 2rem;
+}
+
+#content .menu-text
+{
+	font-size: 2rem;
+	white-space: nowrap;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	padding: 1em;
+}
+
+#content .menu-price
+{
+	justify-self: flex-end;
+	font-size: 3rem;
 }
 
 .img-description
