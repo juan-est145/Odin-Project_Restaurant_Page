@@ -83,4 +83,5 @@ nav
 {
 	text-decoration: underline;
 	text-decoration-color: #f6e27a;
+	text-underline-offset: 0.15em;
 }
