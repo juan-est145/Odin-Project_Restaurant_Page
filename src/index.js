@@ -8,8 +8,7 @@ const menuButton = document.querySelector("#menu");
 const aboutButton = document.querySelector("#about");
 const content = document.querySelector("#content");
 
-//MainPage();
-AboutPage();
+MainPage();
 
 hommeButton.addEventListener("click", () =>
 {
