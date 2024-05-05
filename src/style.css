@@ -6,15 +6,13 @@
 body
 {
 	min-height: 100vh;
-	/*--brown_color : #e2bc8d;
-	--purple_color: #6d1a29;*/
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	--brown_color: rgb(51, 33, 40);
-	--purple_color: black;
+	--purple_color: rgb(51, 33, 40);
+	--black_color: black;
 	margin: 0px;
-	background-color: var(--brown_color);
+	background-color: var(--purple_color);
 	font-family: "Empire",'Times New Roman', Times, serif;
 	--golden_touch: linear-gradient(
 		to right,
@@ -30,7 +28,7 @@ body
 header 
 {
 	display: flex;
-	background-color: var(--purple_color);
+	background-color: var(--black_color);
 	gap: 20px;
 	padding: 0.5em;
 }
@@ -87,7 +85,7 @@ nav
 
 #content
 {
-	background-color: var(--purple_color);
+	background-color: var(--black_color);
 	color: white;
 	min-width: 75vw;
 	align-self: center;
@@ -108,6 +106,7 @@ nav
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	gap: 15px;
 	padding: 1em;
 }
 
